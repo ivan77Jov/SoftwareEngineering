@@ -1,92 +1,70 @@
 # Software Engineering Projects
 
-This repository contains coursework projects developed during the Software Engineering course at the University of Salzburg. The projects demonstrate object-oriented design, software architecture, design pattern implementation, automated testing, and application development in Java.
+This repository contains selected coursework projects developed during the Software Engineering course at the University of Salzburg. The projects demonstrate object-oriented programming, software design, design pattern implementation, UML modeling, automated testing, and application development using Java.
 
----
-
-## Repository Overview
-
-The projects included in this repository focus on different aspects of software engineering, ranging from system design and architecture modeling to implementation and testing.
+Author: Ivan Jovanović
 
 ---
 
 ## Projects
 
 ### Banking System
-A simplified banking domain model supporting customer registration, personal and corporate account management, and financial operations such as deposits, withdrawals, and transfers.
+A simplified banking domain model supporting customer registration and account management. The system implements personal and corporate accounts and supports operations such as deposits, withdrawals, and transfers.
 
-Key concepts demonstrated:
+Focus areas:
 - Domain modeling
+- Business logic implementation
 - Object-oriented design
-- Business rule enforcement
-- Use of Java collections and `BigDecimal` for financial calculations
-
-Location:
 
 ---
 
-### Observer Pattern – News Broadcasting System
-An event-driven news distribution system implementing the Observer design pattern. The system allows dynamic subscription and notification of observers when news content is published.
+### News Broadcasting System (Observer Pattern)
+An event-driven news distribution system implementing the Observer design pattern. The system allows observers to subscribe and automatically receive updates when news is published.
 
-Key concepts demonstrated:
+Focus areas:
 - Observer design pattern
-- Interface-based architecture
-- Event-driven system design
-- Decoupled communication between components
-
-Location:
+- Event-driven architecture
+- Interface-based design
 
 ---
 
-### Composite Pattern – Book Management System
-A hierarchical book management system using the Composite design pattern. The system allows individual books and nested collections of books to be treated uniformly.
+### Book Management System (Composite Pattern)
+A hierarchical book management system using the Composite design pattern. The system allows individual books and collections of books to be handled uniformly.
 
-Key concepts demonstrated:
+Focus areas:
 - Composite design pattern
 - Recursive hierarchical structures
 - Polymorphism and abstraction
-- Extensible object-oriented modeling
-
-Location:
 
 ---
 
-### UML Software Design Diagrams
-A collection of UML diagrams modeling software systems and domain relationships. These diagrams demonstrate structured design planning and architecture modeling prior to implementation.
+### UML Software Design
+A collection of UML diagrams created to model software systems and domain relationships. These diagrams demonstrate structured software design and architecture planning before implementation.
 
-Key concepts demonstrated:
+Focus areas:
 - Class diagram modeling
 - Interface and inheritance relationships
-- Multiplicity and association modeling
-- Visual software architecture documentation
-
-Location:
+- Software architecture documentation
 
 ---
 
-### Observer Pattern Unit Testing
-Automated unit tests verifying the functionality of the Observer-based news broadcasting system. The test suite focuses on event notification, authentication logic, and content moderation behavior.
+### Observer System Unit Testing
+A set of automated tests verifying the functionality of the Observer-based news broadcasting system.
 
-Key concepts demonstrated:
-- Unit testing using JUnit 5
+Focus areas:
+- Unit testing with JUnit 5
 - Exception testing
-- Behavioral testing of event-driven systems
-- Use of mock observers and test setup strategies
-
-Location:
+- Testing event-driven system behavior
 
 ---
 
 ### Minesweeper Game
-An implementation of the classic Minesweeper game focusing on grid-based game logic, recursive tile revealing algorithms, and interactive state management.
+An implementation of the classic Minesweeper game focusing on grid-based logic and recursive tile reveal algorithms.
 
-Key concepts demonstrated:
+Focus areas:
 - Grid-based data structures
 - Recursive algorithms
-- State management
-- Application-level object-oriented design
-
-Location:
+- Interactive application logic
 
 ---
 
@@ -99,19 +77,8 @@ Location:
 
 ---
 
-## Skills Demonstrated
-
-- Object-Oriented Programming
-- Software Architecture and System Design
-- Design Pattern Implementation
-- Automated Testing
-- Domain Modeling
-- Recursive Algorithm Design
-- UML Modeling and Documentation
-
----
-
 ## Academic Context
 
 All projects in this repository were developed as coursework for the Software Engineering course at the University of Salzburg.
+
 
